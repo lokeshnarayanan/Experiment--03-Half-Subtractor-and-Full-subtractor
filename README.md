@@ -35,20 +35,44 @@ Write the detailed procedure here
 ## Program:
 /*
 Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: Lokesh N
+RegisterNumber: 22008481 
 */
+Half Subractor
+
+module exp3(output B,D, input X,Y);
+assign D = (X ^ Y);
+assign B = (~X & Y);
+endmodule
+
+Full Subractor:
+
+module exp3(X,Y,Z,B,D);
+input X,Y,Z;
+output B,D;
+assign D = (X^Y^Z);
+assign B = (~X&(Y^Z)|(Y&Z));
+endmodule
 
 ## Output:
 
 ## Truthtable
-
-
+Half sybracter
+![image](https://user-images.githubusercontent.com/119393019/213897176-9e29608e-c752-4ac1-a3b4-d701fab44f05.png)
+Full subracter
+![image](https://user-images.githubusercontent.com/119393019/213897187-56c4fbaa-72ac-4e2a-a657-17531fa1d3c8.png)
 
 ##  RTL realization
-
+Half subracter
+![image](https://user-images.githubusercontent.com/119393019/213897204-68693312-339f-4848-9da6-c4805c36d150.png)
+Full subracter
+![image](https://user-images.githubusercontent.com/119393019/213897236-5525b0b0-8b80-443d-88c7-291079000c07.png)
 
 ## Timing diagram 
+half subracter
+![image](https://user-images.githubusercontent.com/119393019/213897270-93258de9-1e47-4cf1-9a83-68824ccdf042.png)
+full subtracter
+![image](https://user-images.githubusercontent.com/119393019/213897275-228cc418-5539-4b9a-8b9f-685e7207b1b4.png)
 
 ## Result:
 Thus the half subtractor and full subtractor circuits are designed and the truth tables is verified using quartus software.
