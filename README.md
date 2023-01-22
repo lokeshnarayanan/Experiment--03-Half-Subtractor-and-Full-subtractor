@@ -41,17 +41,25 @@ RegisterNumber: 22008481
 Half Subractor
 
 module exp3(output B,D, input X,Y);
+
 assign D = (X ^ Y);
+
 assign B = (~X & Y);
+
 endmodule
 
 Full Subractor:
 
 module exp3(X,Y,Z,B,D);
+
 input X,Y,Z;
+
 output B,D;
+
 assign D = (X^Y^Z);
+
 assign B = (~X&(Y^Z)|(Y&Z));
+
 endmodule
 
 ## Output:
