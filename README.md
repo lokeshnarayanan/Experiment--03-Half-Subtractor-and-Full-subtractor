@@ -65,17 +65,27 @@ endmodule
 ## Output:
 
 ## Truthtable
-Half sybracter
+Half subracter
 ![image](https://user-images.githubusercontent.com/119393019/213897176-9e29608e-c752-4ac1-a3b4-d701fab44f05.png)
 Full subracter
 ![image](https://user-images.githubusercontent.com/119393019/213897187-56c4fbaa-72ac-4e2a-a657-17531fa1d3c8.png)
 
 ##  RTL realization
+Half subracter
+
 ![image](https://user-images.githubusercontent.com/119393019/213897204-68693312-339f-4848-9da6-c4805c36d150.png)
+
+full subracter
+
 ![image](https://user-images.githubusercontent.com/119393019/213897236-5525b0b0-8b80-443d-88c7-291079000c07.png)
 
 ## Timing diagram 
+half subracter
+
 ![image](https://user-images.githubusercontent.com/119393019/213897270-93258de9-1e47-4cf1-9a83-68824ccdf042.png)
+
+full subracter
+
 ![image](https://user-images.githubusercontent.com/119393019/213897275-228cc418-5539-4b9a-8b9f-685e7207b1b4.png)
 
 ## Result:
